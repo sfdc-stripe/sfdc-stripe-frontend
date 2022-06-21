@@ -1,0 +1,44 @@
+{
+  "id": "com.sfdc-stripe.sfdcinsights",
+  "version": "0.0.1",
+  "name": "SFDC Insights for Stripe Apps",
+  "icon": "",
+  "permissions": [
+    {
+      "permission": "customer_read",
+      "purpose": "read data from the customer"
+    }
+  ],
+  "app_backend": {
+    "webhooks": null
+  },
+  "ui_extension": {
+    "views": [
+      {
+        "viewport": "stripe.dashboard.customer.detail",
+        "component": "App"
+      },
+      {
+        "viewport": "stripe.dashboard.customer.list",
+        "component": "CustomerList"
+      },
+      {
+        "viewport": "stripe.dashboard.drawer.default",
+        "component": "Default"
+      }
+    ],
+    "actions": [],
+    "content_security_policy": {
+      "connect-src": [
+        "https://yourbackend.com/api/customer",
+        "https://yourbackend.com/api/chatter",
+        "https://yourbackend.com/api/logout"
+      ],
+      "image-src": [
+        "https://i.imgur.com/dkeSmvn.png"
+      ],
+      "purpose": "Send data to our backend"
+    }
+  },
+  "post_install_action": null
+}
