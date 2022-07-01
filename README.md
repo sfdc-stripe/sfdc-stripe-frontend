@@ -4,7 +4,7 @@
 
 **This repo contains the code that allows you to deploy a Stripe App that integrates with your Salesforce.com (SFDC) instace. Once deployed and connected you will see customer information retrieved from SFDC inside Stripe, without the need to leave the dashboard. Get work done faster**
 
-[Read more about the Stripe App for SFDC here]()
+[Learn more about the Stripe App for SFDC here (YouTube)](https://youtu.be/EfLHVQbRLEE?t=1138)
 
 - **Sync your customer’s contact information from Stripe to SFDC**
 
