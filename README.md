@@ -2,7 +2,7 @@
 
 ![Customer Insights View Frame](https://user-images.githubusercontent.com/4209733/171068761-508a72c0-7524-4e0e-b950-452cfa8ef9ab.png)
 
-**This repo contains the code that allows you to deploy a Stripe App that integrates with your Salesforce.com (SFDC) instace. Once deployed and connected you will see customer information retrieved from SFDC inside Stripe, without the need to leave the dashboard. Get work done faster**
+**This repo contains the code that allows you to deploy a Stripe App that integrates with your Salesforce.com (SFDC) instance. Once deployed and connected you will see customer information retrieved from SFDC inside Stripe, without the need to leave the dashboard. Get work done faster**
 
 [Learn more about the Stripe App for SFDC here (YouTube)](https://youtu.be/EfLHVQbRLEE?t=1138)
 
