@@ -23,7 +23,7 @@
 - Follow all the steps listed in the Stripe Docs to get the local environment set up - [these are very clearly explained here](https://stripe.com/docs/stripe-apps/create-app) up until but excludiing "Step 2. Create an app"
 - Instead of creating a new app, navigate to the folder you cloned (this repo)
 - Navigate to the `frontend` directory and run `stripe apps upload` - this will upload this app to your account.
-- Once you've uploaded the app and acknowledged the terms of usage, launch the app from the local environment using `stripe apps start`
+- Once you've uploaded the app and acknowledged the terms of usage, launch the app from the local environment using `stripe apps start` - the app might show some signs of working but you need the backend to be up and running for it to be functional.
 - Create an Oauth App in SFDC by following [these steps](https://docs.microfocus.com/UCMDB/11.0/cp-docs/docs/eng/doc_lib/Content/Remedyforce_CreateConnectedApps.htm), and note down your `Consumer Key` and `Consumer Secret` which you will be using once you setup the backend repository.
 - Edit the `stripe-app.json` file in the main directory and replace the values under `connect-src` to match the URL of your own backend.
 
@@ -33,7 +33,7 @@ Support is available through the opening of a github issue and tagged with the "
 
 ## Where to go from here?
 
-![Customize this Stripe App](https://user-images.githubusercontent.com/4209733/171066762-0d40e06c-1d56-49ab-a09a-7323e0c49bf8.png)
+<img src=https://user-images.githubusercontent.com/4209733/171066762-0d40e06c-1d56-49ab-a09a-7323e0c49bf8.png width="800"/>
 
 ### Customize this app!
 
